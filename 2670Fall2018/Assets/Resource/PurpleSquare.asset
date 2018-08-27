@@ -9,8 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b421ce8198a1c849bbada24654e1d71, type: 3}
-  m_Name: NewPrefab
+  m_Name: PurpleSquare
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1194206925543104, guid: fce6ba8de9ee28347b76e7ee0890f69f, type: 2}
-  SpriteImage: {fileID: 21300002, guid: e2990a5f1f3834d4d9e2fbc0cff0faf1, type: 3}
-  SpriteColor: {r: 0.9339623, g: 0.030838395, b: 0.064476356, a: 1}
+  SpriteImage: {fileID: 21300000, guid: e2990a5f1f3834d4d9e2fbc0cff0faf1, type: 3}
+  SpriteColor: {r: 0.35263678, g: 0, b: 0.8301887, a: 1}
