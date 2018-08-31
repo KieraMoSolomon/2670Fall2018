@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\10780434\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_2670Fall2018.1570917052.00" t="ExcludeRecursive" />
-    <e p="C:\Users\10780434\Documents\GitRepos\2670Fall2018\2670Fall2018" t="IncludeRecursive">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="2670Fall2018.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -17,6 +16,7 @@
             <e p="DestroyEvent.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
+            <e p="TriggerExitEvent.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
           </e>
           <e p="EventScript.cs" t="Include" />
@@ -31,5 +31,7 @@
         <e p="bin" t="ExcludeRecursive" />
       </e>
     </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_2670Fall2018.-1244404936.00" t="ExcludeRecursive" />
   </component>
 </project>

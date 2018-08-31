@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class NewEvent : MonoBehaviour
+public class TriggerExitEvent : MonoBehaviour
 {
 
 	public UnityEvent Event;
 
-	private void OnMouseDown()
+	private void OnTriggerExit(Collider other)
 	{
 		Event.Invoke();
 	}
