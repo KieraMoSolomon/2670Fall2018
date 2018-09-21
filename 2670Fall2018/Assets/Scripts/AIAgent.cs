@@ -13,12 +13,15 @@ public class AIAgent : MonoBehaviour
 
 	public Transform Destination;
 	public Transform PostPoint;
+	public FloatData Speed;
 
 	
 	// Use this for initialization
 	void Start ()
 	{
 		agent = GetComponent<NavMeshAgent>();
+		agent.speed = Speed.Value;
+		finalDestination = transform;
 	}
 
 	private void Update()

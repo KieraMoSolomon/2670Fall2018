@@ -12,7 +12,11 @@
         <e p="PlayerLives.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
-          <e p="CharacterMovement.cs" t="Include" />
+          <e p="CountDown.cs" t="Include" />
+          <e p="DamageScripts" t="Include">
+            <e p="TakingDamage.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+          </e>
           <e p="EventBasedBehaviours" t="Include">
             <e p="CollisionEnterEvent.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
@@ -24,11 +28,14 @@
           <e p="FloatBool.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
-          <e p="MovePattern.cs" t="Include" />
-          <e p="MovePatternDual.cs" t="Include" />
-          <e p="MovePatternNotGrounded.cs" t="Include" />
+          <e p="ForEachLoops.cs" t="Include" />
+          <e p="MovingScripts" t="Include">
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+            <e p="MovePatternDual.cs" t="Include" />
+            <e p="MovePatternNotGrounded.cs" t="Include" />
+          </e>
           <e p="PrefabData.cs" t="Include" />
-          <e p="Weapon.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
