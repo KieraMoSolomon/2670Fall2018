@@ -11,4 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 953f98916d72c45af89938f54d0ccb50, type: 3}
   m_Name: SpeedOptions
   m_EditorClassIdentifier: 
-  SpeedOptions: []
+  RandomSpeed: {fileID: 11400000, guid: 9224f77d09ca44084a042f8a3ac4c513, type: 2}
+  SpeedOptions:
+  - {fileID: 11400000, guid: def747aaf3b0a4ad690070a19f222836, type: 2}
+  - {fileID: 11400000, guid: 9224f77d09ca44084a042f8a3ac4c513, type: 2}
+  - {fileID: 11400000, guid: aa5cf94a1f3ed47c1a14b186d732888d, type: 2}
+  - {fileID: 11400000, guid: 1cf889b7b6b0640c4b57038bc0507d8b, type: 2}
+  - {fileID: 11400000, guid: c9f71d8ab56e15748b23ffcb89c09f96, type: 2}

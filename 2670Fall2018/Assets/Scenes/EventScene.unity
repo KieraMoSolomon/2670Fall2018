@@ -5053,7 +5053,7 @@ GameObject:
   - component: {fileID: 1059884086}
   - component: {fileID: 1059884085}
   m_Layer: 0
-  m_Name: Event
+  m_Name: AI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5237,6 +5237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Destination: {fileID: 78381878}
   PostPoint: {fileID: 1688063035}
+  Speed: {fileID: 11400000, guid: def747aaf3b0a4ad690070a19f222836, type: 2}
 --- !u!54 &1059884086
 Rigidbody:
   m_ObjectHideFlags: 0

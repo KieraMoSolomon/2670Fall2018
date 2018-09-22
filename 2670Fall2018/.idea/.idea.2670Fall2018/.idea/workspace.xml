@@ -12,7 +12,7 @@
     <session id="1598356015">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="5" />
@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <marker date="1537574524569" expanded="true" signature="6:78" ph="..." />
                 <marker date="1537574524569" expanded="true" signature="142:515" ph="{...}" />
@@ -193,8 +193,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="817" />
-    <option name="y" value="56" />
+    <option name="x" value="647" />
+    <option name="y" value="64" />
     <option name="width" value="636" />
     <option name="height" value="780" />
   </component>
@@ -285,8 +285,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="817" y="56" width="636" height="780" extended-state="0" />
-    <editor active="true" />
+    <frame x="647" y="64" width="636" height="780" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29899856" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -511,7 +510,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ForEachLoops.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <marker date="1537574524569" expanded="true" signature="6:78" ph="..." />
             <marker date="1537574524569" expanded="true" signature="142:515" ph="{...}" />
