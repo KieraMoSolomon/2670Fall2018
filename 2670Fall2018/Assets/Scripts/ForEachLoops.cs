@@ -14,7 +14,10 @@ public class ForEachLoops : ScriptableObject
         var randomNum = Random.Range(0, SpeedOptions.Count - 1);
         for (int i = 0; i < SpeedOptions.Count -1 ; i++)
         {
-            
+            if (i == randomNum)
+            {
+                RandomSpeed= SpeedOptions[i];
+            }
         }
     }
 }
