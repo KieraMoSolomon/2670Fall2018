@@ -17,6 +17,7 @@
             <e p="TakingDamage.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
           </e>
+          <e p="Draggable.cs" t="Include" />
           <e p="EventBasedBehaviours" t="Include">
             <e p="CollisionEnterEvent.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
@@ -35,7 +36,10 @@
             <e p="MovePatternDual.cs" t="Include" />
             <e p="MovePatternNotGrounded.cs" t="Include" />
           </e>
+          <e p="NameID.cs" t="Include" />
+          <e p="ObjectID.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="TriggerID.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
