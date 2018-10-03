@@ -12,6 +12,8 @@
         <e p="PlayerLives.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AIAgent.cs" t="Include" />
+          <e p="ChangeColor.cs" t="Include" />
+          <e p="ColorData.cs" t="Include" />
           <e p="CountDown.cs" t="Include" />
           <e p="DamageScripts" t="Include">
             <e p="TakingDamage.cs" t="Include" />
@@ -30,6 +32,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
+          <e p="MatchID.cs" t="Include" />
           <e p="MovingScripts" t="Include">
             <e p="CharacterMovement.cs" t="Include" />
             <e p="MovePattern.cs" t="Include" />
@@ -39,7 +42,6 @@
           <e p="NameID.cs" t="Include" />
           <e p="ObjectID.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
-          <e p="TriggerID.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
