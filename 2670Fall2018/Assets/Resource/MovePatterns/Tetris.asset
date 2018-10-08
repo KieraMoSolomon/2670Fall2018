@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba59d1129fe784322803b6bdcc446a65, type: 3}
+  m_Name: Tetris
+  m_EditorClassIdentifier: 
+  MoveX: {fileID: 11400000, guid: 659f929a3d6e64fcb935b411e8bb002e, type: 2}
+  MoveY: {fileID: 11400000, guid: aa5cf94a1f3ed47c1a14b186d732888d, type: 2}
+  MoveZ: {fileID: 11400000, guid: aa5cf94a1f3ed47c1a14b186d732888d, type: 2}
+  gravity: {fileID: 11400000, guid: d8a1c562ea9404a68a94052649621998, type: 2}
+  RotX: {fileID: 11400000, guid: aa5cf94a1f3ed47c1a14b186d732888d, type: 2}
+  RotY: {fileID: 11400000, guid: aa5cf94a1f3ed47c1a14b186d732888d, type: 2}
+  RotZ: {fileID: 11400000, guid: aa5cf94a1f3ed47c1a14b186d732888d, type: 2}

@@ -15,6 +15,7 @@
           <e p="ChangeColor.cs" t="Include" />
           <e p="ColorData.cs" t="Include" />
           <e p="CountDown.cs" t="Include" />
+          <e p="Counter.cs" t="Include" />
           <e p="DamageScripts" t="Include">
             <e p="TakingDamage.cs" t="Include" />
             <e p="Weapon.cs" t="Include" />
@@ -32,6 +33,7 @@
           <e p="FloatData.cs" t="Include" />
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
+          <e p="InstanceObject.cs" t="Include" />
           <e p="MatchID.cs" t="Include" />
           <e p="MovingScripts" t="Include">
             <e p="CharacterMovement.cs" t="Include" />
@@ -41,6 +43,7 @@
           </e>
           <e p="NameID.cs" t="Include" />
           <e p="ObjectID.cs" t="Include" />
+          <e p="PerpetualCounter.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
         </e>
       </e>

@@ -6,7 +6,8 @@ using UnityEngine.UI;
 
 public class CountDown : MonoBehaviour
 {
-
+	
+	public int number = 3;
 	private Text label;
 	
 	// Use this for initialization
@@ -14,7 +15,6 @@ public class CountDown : MonoBehaviour
 	{
 		label = GetComponent<Text>();
 
-		int number = 3;
 
 		while (number > 0)
 		{
