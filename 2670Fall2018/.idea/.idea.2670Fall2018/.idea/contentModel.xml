@@ -45,6 +45,7 @@
           <e p="ObjectID.cs" t="Include" />
           <e p="PerpetualCounter.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="StartBehaviour.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

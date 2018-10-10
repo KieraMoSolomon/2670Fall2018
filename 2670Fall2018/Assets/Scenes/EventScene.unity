@@ -240,8 +240,9 @@ GameObject:
   - component: {fileID: 328114867}
   - component: {fileID: 328114866}
   - component: {fileID: 328114869}
+  - component: {fileID: 328114870}
   m_Layer: 0
-  m_Name: Alphabet_0
+  m_Name: LetterA
   m_TagString: A
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,6 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d78ef593a31484695cef621c6ce0ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CanDrag: 0
 --- !u!212 &328114867
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -329,6 +331,34 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.87, y: 2.54, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &328114870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 328114865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8fffda58d57a4440bbb370a0ae806a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: {fileID: 11400000, guid: d28bae09a3a0540fcab5de9332330c8f, type: 2}
+  onMactch:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 328114866}
+        m_MethodName: StopAllCoroutines
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &643368514
 GameObject:
   m_ObjectHideFlags: 0
@@ -5449,9 +5479,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1651443316}
   - component: {fileID: 1651443315}
-  - component: {fileID: 1651443313}
   - component: {fileID: 1651443314}
   - component: {fileID: 1651443317}
+  - component: {fileID: 1651443313}
   m_Layer: 0
   m_Name: RingPicture_0
   m_TagString: A
@@ -5467,19 +5497,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1651443312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a186a2e61135f8143bee0affe63a7860, type: 3}
+  m_Script: {fileID: 11500000, guid: 2bad816c3d844449299a5a43a55a87a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: Invoke
-        m_Mode: 2
+      - m_Target: {fileID: 11500000, guid: 08ec906c974af442f8f07974eb32a627, type: 3}
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: d28bae09a3a0540fcab5de9332330c8f,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: NameID, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5566,10 +5595,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1651443312}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08ec906c974af442f8f07974eb32a627, type: 3}
+  m_Script: {fileID: 11500000, guid: bf620b9247ee34fd1a90be7ee102371d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteColor: {fileID: 11400000, guid: 25acf111692044c3686e29fba71b2f16, type: 2}
+  ID: {fileID: 11400000, guid: d28bae09a3a0540fcab5de9332330c8f, type: 2}
 --- !u!1 &1685388762
 GameObject:
   m_ObjectHideFlags: 0
