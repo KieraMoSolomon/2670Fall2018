@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 487458889ea8b4dc2b699c598bd2554e, type: 3}
+  m_Name: LetterStore
+  m_EditorClassIdentifier: 
+  Available: {fileID: 11400000, guid: c6b64ac6bf0484a7092d97d5805a3d6d, type: 2}
+  Purchased: {fileID: 11400000, guid: 76bb82561f5344070a550b03820e4479, type: 2}
