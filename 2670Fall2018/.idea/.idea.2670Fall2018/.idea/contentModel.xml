@@ -43,9 +43,12 @@
           </e>
           <e p="NameID.cs" t="Include" />
           <e p="ObjectID.cs" t="Include" />
+          <e p="Objects.cs" t="Include" />
           <e p="PerpetualCounter.cs" t="Include" />
           <e p="PrefabData.cs" t="Include" />
+          <e p="PurchasableObject.cs" t="Include" />
           <e p="StartBehaviour.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

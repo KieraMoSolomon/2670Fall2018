@@ -8,7 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c60d54130174548ee854d5aead42c7f1, type: 3}
-  m_Name: PerchasedLetters
+  m_Script: {fileID: 11500000, guid: 0fe14b3b21cf94f1884ba0568f027ea8, type: 3}
+  m_Name: A
   m_EditorClassIdentifier: 
-  ObjectList: []
+  Value: 100
+  Item: {fileID: 11400000, guid: d28bae09a3a0540fcab5de9332330c8f, type: 2}
