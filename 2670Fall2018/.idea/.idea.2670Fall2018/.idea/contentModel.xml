@@ -90,6 +90,7 @@
           <e p="ForEachLoops.cs" t="Include" />
           <e p="HyperCasualGame" t="Include">
             <e p="CollectCoins.cs" t="Include" />
+            <e p="DestroyObj.cs" t="Include" />
           </e>
           <e p="InstanceObject.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
