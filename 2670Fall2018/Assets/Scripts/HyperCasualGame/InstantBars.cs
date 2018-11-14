@@ -10,18 +10,23 @@ public class InstantBars : MonoBehaviour
 	public GameObject DontHitBar;
 
 	//public float Seconds = 2.0f;
-	
-	IEnumerator CreateBars()
+
+	IEnumerator Start()
 	{
-		yield return new WaitForSeconds(Seconds.Value);
-		/*ranObj = Random.Range(1, 2);
-		if (ranObj == 1)
+		while (true)
 		{
-			Instantiate(HitBar);
+
+			ranObj = Random.Range(1, 3);
+			if (ranObj == 1)
+			{
+				Instantiate(HitBar);
+			}
+			else if (ranObj == 2)
+			{
+				Instantiate(DontHitBar);
+			}
+
+			yield return new WaitForSeconds(Seconds.Value);
 		}
-		else
-		{
-			Instantiate(DontHitBar);
-		}*/
 	}
 }

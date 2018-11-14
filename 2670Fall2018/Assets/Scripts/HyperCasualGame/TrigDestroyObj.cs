@@ -1,9 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-public class DestroyObj : MonoBehaviour
-{
-	private void OnMouseDown()
+
+public class TrigDestroyObj : MonoBehaviour {
+	
+	private void OnTriggerEnter(Collider other)
 	{
 		Destroy(gameObject);
 	}

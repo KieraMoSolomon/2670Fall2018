@@ -4,9 +4,10 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - Seconds: {fileID: 11400000, guid: c9f71d8ab56e15748b23ffcb89c09f96, type: 2}
-  - HitBar: {instanceID: 0}
-  - DontHitBar: {instanceID: 0}
+  - Seconds: {fileID: 11400000, guid: e901348e522e64e829e054bf212d817d, type: 2}
+  - HitBar: {fileID: 1280280667164018, guid: e61ad5d8038d7461f99da6494162cf44, type: 2}
+  - DontHitBar: {fileID: 1548821238248976, guid: db7fecb28ca8f49218e0d7f5e4f07f98,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
