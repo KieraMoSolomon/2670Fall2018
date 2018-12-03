@@ -79,7 +79,9 @@
           <e p="EventBasedBehaviours" t="Include">
             <e p="CollisionEnterEvent.cs" t="Include" />
             <e p="DestroyEvent.cs" t="Include" />
+            <e p="DestroyObject.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
+            <e p="NewBehaviourScript.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
             <e p="TriggerExitEvent.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />

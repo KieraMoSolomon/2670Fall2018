@@ -20,12 +20,14 @@ GameObject:
   m_Component:
   - component: {fileID: 4643602047897962}
   - component: {fileID: 33094391733030436}
+  - component: {fileID: 114931216113416740}
   - component: {fileID: 23212580900012344}
   - component: {fileID: 65986474048430690}
   - component: {fileID: 143536050806093174}
   - component: {fileID: 114443805557491246}
   - component: {fileID: 114581547582898704}
-  - component: {fileID: 114931216113416740}
+  - component: {fileID: 114879760752856196}
+  - component: {fileID: 114206261417488596}
   m_Layer: 0
   m_Name: DontHit
   m_TagString: Untagged
@@ -100,6 +102,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114206261417488596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1548821238248976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1076fbb783a324aa58d2f7077b8800f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114443805557491246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,9 +139,36 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1548821238248976}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 114206261417488596}
+        m_MethodName: DestroyObj
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114879760752856196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1548821238248976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a186a2e61135f8143bee0affe63a7860, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114206261417488596}
+        m_MethodName: DestroyObj
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

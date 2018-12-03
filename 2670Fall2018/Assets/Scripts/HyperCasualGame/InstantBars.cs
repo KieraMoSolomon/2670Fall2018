@@ -8,7 +8,7 @@ public class InstantBars : MonoBehaviour
 	//public int ranObj;
 	public GameObject[] Bar;
 	//public GameObject DontHitBar;
-	public Transform transform;
+	public Transform transformObj;
 
 	//public float Seconds = 2.0f;
 
@@ -23,7 +23,7 @@ public class InstantBars : MonoBehaviour
 		{
 			yield return new WaitForSeconds(Seconds.Value);
 			{
-				Instantiate(HitOrNot(), transform.position, transform.rotation);
+				Instantiate(HitOrNot(), transformObj.position, transformObj.rotation);
 			}
 		}
 	}

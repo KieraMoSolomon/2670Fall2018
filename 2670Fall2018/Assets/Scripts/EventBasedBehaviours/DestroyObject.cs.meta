@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: e24c36cf0fd254087a633c0b100b2fab
+guid: 1076fbb783a324aa58d2f7077b8800f2
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - coins: {fileID: 11400000, guid: 777b6fc5bde3143b2be7b6758f49e142, type: 2}
-  - cost: {fileID: 11400000, guid: c93e85dd1e269470180b06b65faab703, type: 2}
+  - gameObj: {fileID: 1548821238248976, guid: db7fecb28ca8f49218e0d7f5e4f07f98, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
