@@ -82,6 +82,7 @@
             <e p="DestroyObject.cs" t="Include" />
             <e p="MouseDownEvent.cs" t="Include" />
             <e p="NewBehaviourScript.cs" t="Include" />
+            <e p="StartEvent.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
             <e p="TriggerExitEvent.cs" t="Include" />
             <e p="UpdateEvent.cs" t="Include" />
@@ -91,9 +92,16 @@
           <e p="FloatInput.cs" t="Include" />
           <e p="ForEachLoops.cs" t="Include" />
           <e p="HyperCasualGame" t="Include">
+            <e p="ButtonSwitch.cs" t="Include" />
+            <e p="ChangeInt.cs" t="Include" />
             <e p="ClickDestroyObj.cs" t="Include" />
             <e p="CollectCoins.cs" t="Include" />
             <e p="InstantBars.cs" t="Include" />
+            <e p="PickPlayer.cs" t="Include" />
+            <e p="setActiveObj.cs" t="Include" />
+            <e p="ShowCoins.cs" t="Include" />
+            <e p="SOSceneManage.cs" t="Include" />
+            <e p="StoreFollow.cs" t="Include" />
             <e p="TrigDestroyObj.cs" t="Include" />
           </e>
           <e p="InstanceObject.cs" t="Include" />

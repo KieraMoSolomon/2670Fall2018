@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d287e5646ea74dadb46aa1aff82dccc, type: 3}
-  m_Name: Coins
+  m_Script: {fileID: 11500000, guid: 08ec906c974af442f8f07974eb32a627, type: 3}
+  m_Name: BlueTry
   m_EditorClassIdentifier: 
-  value: 35
+  Color: {fileID: 0}

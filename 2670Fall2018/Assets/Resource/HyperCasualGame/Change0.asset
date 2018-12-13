@@ -8,7 +8,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d287e5646ea74dadb46aa1aff82dccc, type: 3}
-  m_Name: Coins
+  m_Script: {fileID: 11500000, guid: f8516009540c34b849a3eadd05f63867, type: 3}
+  m_Name: Change0
   m_EditorClassIdentifier: 
-  value: 35
+  Int: 0

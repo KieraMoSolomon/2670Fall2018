@@ -15,13 +15,4 @@ public class CollectCoins : MonoBehaviour
 		coins.value += coins.value;
 	}
 
-	public void UseCoins()
-	{
-		if (coins.value >= cost.value)
-		{
-			coins.value -= coins.value;
-			Event.Invoke();
-		}
-	}
-
 }

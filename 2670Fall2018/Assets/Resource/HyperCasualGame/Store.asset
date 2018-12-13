@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2b571b5bdc444bdb6ba3a697aca7c0, type: 3}
+  m_Name: Store
+  m_EditorClassIdentifier: 
+  Skins: []
+  ItemValue: 10
+  Purchased: []
+  Cash: {fileID: 11400000, guid: 777b6fc5bde3143b2be7b6758f49e142, type: 2}
+  playerPick: {fileID: 11400000, guid: 640a20364f8d34638afd2bddec5a00b8, type: 2}

@@ -28,6 +28,7 @@ GameObject:
   - component: {fileID: 114581547582898704}
   - component: {fileID: 114879760752856196}
   - component: {fileID: 114206261417488596}
+  - component: {fileID: 114539763422850786}
   m_Layer: 0
   m_Name: DontHit
   m_TagString: Untagged
@@ -125,6 +126,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Pattern: {fileID: 11400000, guid: 7ec0aa7e26c3449a7856360be18fc12a, type: 2}
+--- !u!114 &114539763422850786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1548821238248976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5a523fb68444a35906b10fdcefee1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinText: {fileID: 114041599975777918, guid: ac29e62345cb344d1a7e48b9195c7680, type: 2}
+  coins: {fileID: 11400000, guid: 777b6fc5bde3143b2be7b6758f49e142, type: 2}
 --- !u!114 &114581547582898704
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -150,6 +164,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 3045bda2c9b934fe484609092f9ed9b3, type: 2}
+        m_MethodName: Call
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114879760752856196
@@ -166,6 +191,17 @@ MonoBehaviour:
   Event:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 114539763422850786}
+        m_MethodName: addScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 114206261417488596}
         m_MethodName: DestroyObj
         m_Mode: 1
